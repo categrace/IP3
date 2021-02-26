@@ -14,3 +14,12 @@
     margin-right: auto;
     display: block;
 }
+.aboutus {
+    text-align:center;
+    color:black;
+}
+.services {
+    background-image: url(./assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    color: white;
+}
