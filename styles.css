@@ -23,3 +23,9 @@
     background-size: cover;
     color: white;
 }
+.container-fluid {
+    background-image: url(./assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position: cover;
+    margin-top: 50px;
+}    
