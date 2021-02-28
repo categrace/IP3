@@ -51,9 +51,13 @@
     background-image: url(./assets/backgrounds/c_image.jpg);
     background-size: cover;
     justify-content: center;
+
 }  
 .social {
     display: flex;
     align-items: center;
     justify-content: center;
-}  
+}
+.contactscontainer-fluid {
+    background-color: rgba(0, 0,0,0.7);
+}

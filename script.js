@@ -49,3 +49,17 @@ $(document).ready(function(){
       $("#Hover8").hide();
     });
   });
+
+  
+$('.submit').click(function () {
+        let Name = $('#mce-FNAME').val();
+        let Email = $('#mce-EMAIL').val();
+        let Message = $('#mce-MESSAGE');
+        let key ='da6d9c832f25496dc39143d88-us1';
+        if (Name == '' || Email == '' || Message == '') {
+            alert('Please make sure you have filled in the form correctly!');
+        } else {
+            alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+        }
+  });
+
