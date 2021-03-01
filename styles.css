@@ -11,12 +11,12 @@
    margin-right: auto;
    display: block;
 }
-.mouseclick {
+#mouseclick {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.mouse-click {
+#mouse-click {
     animation: bounce 3s infinite;
 }
 @keyframes bounce {
@@ -43,6 +43,9 @@
     padding-top: 120px;
     padding-bottom: 80px;
 }
+.hide {
+    display: none;
+}
 .portfolio {
     /*height: 650px;*/
     padding-bottom: 50px;
@@ -51,13 +54,14 @@
     background-image: url(./assets/backgrounds/c_image.jpg);
     background-size: cover;
     justify-content: center;
+   
+}
+form {
+    opacity:0.3;
+}
 
-}  
 .social {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.contactscontainer-fluid {
-    background-color: rgba(0, 0,0,0.7);
 }
