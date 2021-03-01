@@ -1,18 +1,34 @@
-.delani {
-    background-image: url(./assets/backgrounds/h_img.jpg);
+
+.landing {
+    background-image: url(assets/backgrounds/h_img.jpg);
     background-size: cover;
     text-align:center;
     color: white;
+    height: 668px;
 }
 .Dlogo {
    margin-left: auto; 
    margin-right: auto;
    display: block;
 }
-.mouseclick {
+#mouseclick {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+#mouse-click {
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform:translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
 }
 .aboutus {
     text-align:center;
@@ -22,4 +38,30 @@
     background-image: url(./assets/backgrounds/s_image.jpg);
     background-size: cover;
     color: white;
+    margin-bottom: 50px;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.hide {
+    display: none;
+}
+.portfolio {
+    /*height: 650px;*/
+    padding-bottom: 50px;
+}
+.contacts {
+    background-image: url(./assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    justify-content: center;
+   
+}
+form {
+    opacity:0.3;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
